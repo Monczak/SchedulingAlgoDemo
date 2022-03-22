@@ -1,0 +1,163 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Camera",
+            "id": "6130ff93-80f4-4b74-8e0d-144af8cce62c",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "37f69af1-c723-44ee-9b50-fe36574421f9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Start Movement",
+                    "type": "Button",
+                    "id": "3c29f367-3448-49bc-a7d9-1eb56a1d8640",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "42c1fab9-3d73-47ba-9d9c-27fcf311735c",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1d5e4422-d992-48a5-8d98-016e1dc0d770",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Start Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Debug",
+            "id": "dde9b440-4407-4aed-8573-0cdbdeffa437",
+            "actions": [
+                {
+                    "name": "Add Block",
+                    "type": "Button",
+                    "id": "c70162ef-e91f-4333-bdc5-3d530d093f49",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Remove Block",
+                    "type": "Button",
+                    "id": "44754cf0-195b-42ac-a3ad-4f813824a01a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Move Block Up",
+                    "type": "Button",
+                    "id": "6e82c48b-4f12-4595-b45c-cc9fd1dad691",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Move Block Down",
+                    "type": "Button",
+                    "id": "2515d714-0f73-4d38-a091-e9be98c3ae4a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "19e6148e-1d07-4ada-9d20-5f82f6b08117",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Add Block",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "79571ab7-1e99-496b-9d3d-1ba1780bd782",
+                    "path": "<Keyboard>/backspace",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Remove Block",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "56aa1256-ba77-4bbe-82f5-f9ef03878a4a",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Block Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b5e69572-fbf2-483c-bab1-c4d5b13169cb",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Block Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Global",
+            "id": "fb14ac01-a28f-429e-b117-afb2123cf7f1",
+            "actions": [
+                {
+                    "name": "Mouse Position",
+                    "type": "Value",
+                    "id": "e42511bd-543a-4113-9087-778ac3a6a728",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "78b7b2a3-46fb-4f46-9147-89dd2b591232",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mouse Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
